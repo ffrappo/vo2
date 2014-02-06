@@ -2281,6 +2281,15 @@ html, body {
   transform: perspective(0) translate(83%, 0);
 }
 
+#header {
+  opacity: 0;
+  background: #d01625;
+}
+
+#header.activeState {
+  opacity: 0.95;
+}
+
 #contentWrapper {
   position: absolute;
   padding-top: 44px;
@@ -2321,13 +2330,27 @@ max-width: 100%;
 width: 100% !important;
 }
 
+.videopreview {
+  position: relative;
+  display: block;
+}
+
+.playimg {
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-top: -50px;
+ margin-left: -50px;
+}
+
 /*
  * ios7 fixes
  */
 
 .ios7 #header.activeState {
  padding-top: 20px;
- background: #d01625;
 }
 
 .ios7 #topBarIconMenu, .ios7 #topBarIconShare {
