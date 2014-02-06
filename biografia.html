@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vittorio Orlandi App</title>
+    <meta http-equiv="Content-Type" content="text/html, charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="css/style.css" title="Main CSS" type="text/css" media="screen">
+  </head>
+  <body>
+
+      
+		<!--  header -->
+        <header id="header">
+          <a id="topBarIconMenu"></a>
+		        
+		       <!--  <div id="imgLogo"></div> -->
+          <h1 id="textLogo">Vittorio Orlandi</h1>
+          <a id="topBarIconShare" class="ShareDialogTrigger"></a>
+		        
+		        <!-- Share Dialog, put this right after share icon -->
+          <div class="shareDialog shareDialogMenu">
+            <div class="shareDialogArrow"></div>
+            <div class="shareDialogContent">
+              <ul class="shareDialogIconList">
+                <li><a onclick="sendMail()"><div class="shareDialogMail"></div>Email</a>
+                </li>
+                <li><a class="do-not-steal" onclick="var ref = window.open('https://www.facebook.com/vittorioorlandiofficial', '_blank', 'location=yes,toolbar=yes');"><div class="shareDialogFb"></div>Facebook</a>
+                </li>
+                <li><a class="do-not-steal" onclick="var ref = window.open('http://www.twitter.com/v_orlandi', '_blank', 'location=yes,toolbar=yes');"><div class="shareDialogTwitter"></div>Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+	    <!-- header -->      
+      
+ <!-- Wrapper -->
+    <section id="wrapper">
+		<!-- Aside -->
+      <aside id="sidebar">
+        <ul id="listMenu">
+          <li class="title">Main menu</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="presentazione.html">Presentazione</a></li>
+          <li><a href="biografia.html">Biografia</a></li>
+          <li><a href="carriera.html">Carriera</a></li>
+          <li><a href="photos.html">Foto</a></li>
+          <li><a href="news.html">News<span class="counter">4</span></a></li>
+          <li><a class="do-not-steal" onclick="var ref = window.open('http://www.youtube.com/results?search_query=eurosport+equestrian&sm=3', '_blank', 'location=yes,toolbar=yes');" href="#">Equestrian Channel</a>
+          </li>
+          <li class="title">Contattami</li>
+          <li><a onclick="sendMail()">Email</a>
+          </li>
+        </ul>
+      </aside>
+		<!-- =Aside -->
+
+<!-- Content Wrapper -->
+      <section id="contentWrapper">  
+	   	         
+        <div class="siteLoader">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div><!--      Main Content-->
+        <section id="content" style="text-align:center">
+	        
+	        	<!-- Text Content -->
+          <h1 style="text-align:center;">B i o g r a f i a</h1>
+          <br /><br />
+          <img src="images/vittorio_orlandi_biografia.jpg" width="500px" /><br /><br />
+          <p style="text-align:left">Vittorio Orlandi è stato un grande Cavaliere e un Imprenditore di successo capace di coniugare e rendere sinergiche le qualità manageriali proiettate all’innovazione. Cominciò la sua carriera agonistica con i purosangue, montando in campagna, poi intorno a 17 anni, iniziò con il salto ostacoli. Seguì per qualche mese la scuola di Ulderico Fioretti di Firenze, per proseguire poi da solo, lavorando e correggendosi di continuo. E i risultati arrivarono, insieme ai cavalli che fecero la storia del salto ostacoli azzurro, con l’aiuto tecnico di Graziano Mancinelli. Tra i suoi più grandi successi, una medaglia d’oro e due argenti nel Campionato italiano nel ’69 e nel ’70 con Fulmer e nel 74 con Fiorello. Nelle Olimpiadi di Monaco nel ’72, vinse un bronzo a squadre con Fulmer, mentre nel ’73 fu quarto nel Campionato Europeo di Hickstead con Fiorello e Fulmer.
+            <br /><br />
+            La famiglia ha sempre avuto un ruolo fondamentale nella sua vita. I suoi tre fratelli (Susy, Sergio e Rossana), insieme ai suoi figli (Ismaele, Massimiliano e Dimitri) e Nelly Mancinelli, sua compagna di vita, sono l’esempio lampante di un legame che da oltre tre generazioni, è sempre più forte. Uomo di cavalli e grande manager, Vittorio Orlandi capì fin da ragazzo che se avesse voluto andare avanti nello sport a certi livelli, avrebbe dovuto darsi da fare nel lavoro.
+            <br /><br />
+            Così, a soli 19 anni, entrò nel gruppo di famiglia, lasciando da parte l’università e concentrandosi in un’area dell’attività, quella dei “tessuti non tessuti”, in cui scommesse tutto. Terminata l’attività di Cavaliere di alto livello, si è dedicato a varie iniziative per aiutare l’equitazione italiana a crescere. Ricordiamo il Pony Club Fiorello che lanciò l’equitazione sui pony in Italia, APICE, l’associazione italiana dei proprietari che ha portato questa figura all’apice della filiera e l’ultima nata, Scuderia Italia, una società con lo scopo di comprare cavalli da fare crescere per poter affrontare.
+          </p>
+          <br /><br />
+          <hr>
+<!-- Wrapped content (padding 15px from each side) -->
+						<!-- Use this div to clean Floats after using Column layout-->
+            <div class="clearfix"></div>
+          </div>
+        </section>
+	        <!--    =Main Content-->
+      </section>
+    	<!-- =Content Wrapper -->
+    </section>
+    
+<script src="cordova.js"></script>
+<script src="js/klass.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/app.js"></script>
+  </body>
+</html>
